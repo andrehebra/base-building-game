@@ -1,0 +1,19 @@
+{
+  "name": "base-building-game",
+  "version": "1.0.0",
+  "description": "This is meant to be a simple base building game on a 2d plane. the objective will be to defend from enemies while managing resources.",
+  "main": "mapDisplay.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrehebra/base-building-game.git"
+  },
+  "author": "Andre Hebra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrehebra/base-building-game/issues"
+  },
+  "homepage": "https://github.com/andrehebra/base-building-game#readme"
+}
