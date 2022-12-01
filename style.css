@@ -1,13 +1,17 @@
 body {
-    background-color: black;
+    background-color: white;
 }
 
 #playGrid {
     display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    height: 1000px;
 }
 
 .square {
-    background-color: white;
-    width: 100px;
-    height: 100px;
+    background-color: black;
+    width: 98px;
+    height: 98px;
+    margin: 1px;
 }
