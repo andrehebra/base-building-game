@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/andrehebra/base-building-game/issues"
   },
-  "homepage": "https://github.com/andrehebra/base-building-game#readme"
+  "homepage": "https://github.com/andrehebra/base-building-game#readme",
+  "dependencies": {
+    "fantasy-map-generator": "^0.0.3"
+  }
 }
