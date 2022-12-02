@@ -6,6 +6,8 @@ const playGrid = document.getElementById("playGrid");
 const numRows = 10;
 const numColumns = 10;
 
+let sprites = [];
+
 for (i = 1; i <= numRows; i++) {
     for (j = 1; j <= numColumns; j++) {
         const square = document.createElement("div");
@@ -14,3 +16,17 @@ for (i = 1; i <= numRows; i++) {
         playGrid.appendChild(square);
     }
 }
+
+function createSprite(id) {
+    const sprite = document.createElement("div");
+    sprite.classList.add("sprite");
+    sprite.id = (id);
+    sprites.push(id);
+
+    const spritesLocation = document.getElementById("sprites");
+
+    spritesLocation.appendChild(sprite);
+}
+
+createSprite(sprites.length);
+console.log(sprites);

@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: gray;
 }
 
 #playGrid {
@@ -14,4 +14,11 @@ body {
     width: 98px;
     height: 98px;
     margin: 1px;
+}
+
+.sprite {
+    width: 10px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
 }
